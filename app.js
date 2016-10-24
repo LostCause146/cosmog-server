@@ -123,9 +123,13 @@ global.Chat = require('./chat');
 
 global.Rooms = require('./rooms');
 
+global.Destiny = {};
+
+global.sqlite3 = require('sqlite3');
+
 global.Tells = require('./tells.js');
 
-global.Db = require('origindb')('config/db');
+global.Db = require('origindb')('config/Mist DataBase');
 
 delete process.send; // in case we're a child process
 global.Verifier = require('./verifier');
