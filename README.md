@@ -38,7 +38,7 @@ $ node app.js
 
 This Mist-Showdown is created with the help of boilerplate and is brought to you and maintained by the following people:
 
-[Rambo](https://avatars3.githubusercontent.com/u/19830621?v=3&s=466)](http://github.com/rambo199)
+[Rambo](https://avatars3.githubusercontent.com/u/19830621?v=3&s=466)(http://github.com/rambo199)
 :---:|:---:|:---:|:---:|:---:
 [Rambo](http://github,com/rambo199) 
 ## Special thanks
