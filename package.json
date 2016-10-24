@@ -6,7 +6,12 @@
   "dependencies": {
     "dem-feels": "^1.6.0",
     "moment": "2.11.2",
+    "geoip-ultralight": "^0.1.1",
     "origindb": "2.5.2",
+    "autolinker": "^1.1.0",
+    "node-serialize": "0.0.4",
+    "nani": "1.2.0",
+    "sqlite3": "^3.1.4",
     "request": "2.74.0",
     "sockjs": "0.3.18"
   },
