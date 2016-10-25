@@ -61,7 +61,7 @@ function logMoney(message) {
 }
 
 /**
- * Displays the shop
+ * Displays the shop (need to improve the shop display)
  *
  * @param {Array} shop
  * @return {String} display
