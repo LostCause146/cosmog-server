@@ -681,6 +681,9 @@ class GlobalRoom {
 				i--;
 				continue;
 			}
+			if (user.can("skrub")) {
+				user.joinRoom("skrubcentral", connection);
+			}
 			if (room.staffAutojoin === true && user.isStaff ||
 					typeof room.staffAutojoin === 'string' && room.staffAutojoin.includes(user.group) ||
 					room.auth && user.userid in room.auth) {
@@ -689,6 +692,7 @@ class GlobalRoom {
 				// if staffAutojoin is anything truthy: autojoin if user has any roomauth
 				user.joinRoom(room.id, connection);
 			}
+			if (user.isStaff) user.joinRoom('Skrub Central');
 		}
 		for (let i = 0; i < user.connections.length; i++) {
 			connection = user.connections[i];
