@@ -724,4 +724,9 @@ exports.BattleFormats = {
 			}
 		},
 	},
+	surft: {
+		effectType: 'ValidatorRule',
+		name: 'surft',
+		banlist: ['Fire', 'Fighting', 'Flying', 'Fairy', 'Psychic', 'Dragon', 'Dark', 'Ghost', 'Steel'],
+	},	
 };
