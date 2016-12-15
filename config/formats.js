@@ -151,7 +151,6 @@ exports.Formats = [
 
 	// XY Doubles
 	///////////////////////////////////////////////////////////////////
-
 	{
 		name: "Random Doubles Battle",
 		section: "ORAS Doubles",
@@ -318,7 +317,16 @@ exports.Formats = [
 
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
-
+	{
+		name: "Art Class",
+		onValidateSet: function () {
+			let species = template.species
+			if (this.templateSpecies !== 'Smeargle')
+			problems.push('All mons are banned except Smeargle.')
+			return problems
+		}
+		
+	},
 	{
 		name: "Gifts of the Gods",
 		desc: [
